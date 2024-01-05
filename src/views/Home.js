@@ -34,7 +34,7 @@ export default function Home() {
 					</div>
 				</div>
 				<div className='flex flex-col w-1/2'>
-					<div className='flex'>
+					<div className='flex dashes'>
 						<img
 							className='h-[200px] lg:h-[400px]'
 							src={book}

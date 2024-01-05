@@ -41,7 +41,7 @@
 	}
 }
 
-ul > li:before {
+.dashes > ul > li:before {
 	content: '-';
 }
 
