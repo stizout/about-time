@@ -2,7 +2,7 @@ import React from 'react';
 import LinkComponent from './Link';
 
 export default function Header() {
-	const [showAbout, setShowAbout] = React.useState(true);
+	const [showAbout, setShowAbout] = React.useState(false);
 	const [showArticles, setShowArticles] = React.useState(false);
 	return (
 		<header className='flex justify-between w-full bg-olive-200 py-6 border border-b-jet-500 px-5'>
