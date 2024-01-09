@@ -1,0 +1,29 @@
+{
+  "files": {
+    "main.css": "/about-time/static/css/main.c5d831cc.css",
+    "main.js": "/about-time/static/js/main.53eb8a3b.js",
+    "static/js/787.5e75e366.chunk.js": "/about-time/static/js/787.5e75e366.chunk.js",
+    "static/media/Its-About-Time-Book.png": "/about-time/static/media/Its-About-Time-Book.d4081e272c1259ba8120.png",
+    "static/media/david-allan-family-reunion.jpg": "/about-time/static/media/david-allan-family-reunion.5562ccc081a55e3f29f2.jpg",
+    "static/media/david-allan-mary-owen.jpg": "/about-time/static/media/david-allan-mary-owen.d26dbef1ce94a5e907d4.jpg",
+    "static/media/David-and-Edna-Allan.jpg": "/about-time/static/media/David-and-Edna-Allan.dc2310c7e3c3f5df8532.jpg",
+    "static/media/david-reward-accpetance.jpg": "/about-time/static/media/david-reward-accpetance.50ca53a709ce912d81d2.jpg",
+    "static/media/david-allan-family-bike-ride.jpg": "/about-time/static/media/david-allan-family-bike-ride.7987c6c0a021303a1970.jpg",
+    "static/media/it-came-to-pass-chart.png": "/about-time/static/media/it-came-to-pass-chart.6f0cb243f3e4f914be6b.png",
+    "static/media/It-came-to-Pass-Update-image1.png": "/about-time/static/media/It-came-to-Pass-Update-image1.40ca9a32199c2b777ee0.png",
+    "static/media/Davids-Audible-popup-small3.jpg": "/about-time/static/media/Davids-Audible-popup-small3.71f1ec4cc2e0757287ec.jpg",
+    "static/media/healthy-about.jpg": "/about-time/static/media/healthy-about.efc6afe1974ead78de5d.jpg",
+    "static/media/Small-Image-.png": "/about-time/static/media/Small-Image-.bbe5b720452592898692.png",
+    "static/media/riddle-with-allan.jpg": "/about-time/static/media/riddle-with-allan.0ccd1f7cc8e9eb13393a.jpg",
+    "static/media/david-edna-bike.jpg": "/about-time/static/media/david-edna-bike.23cb793d4f412ea62565.jpg",
+    "static/media/Equation.jpg": "/about-time/static/media/Equation.0071010d031f0d233d67.jpg",
+    "index.html": "/about-time/index.html",
+    "main.c5d831cc.css.map": "/about-time/static/css/main.c5d831cc.css.map",
+    "main.53eb8a3b.js.map": "/about-time/static/js/main.53eb8a3b.js.map",
+    "787.5e75e366.chunk.js.map": "/about-time/static/js/787.5e75e366.chunk.js.map"
+  },
+  "entrypoints": [
+    "static/css/main.c5d831cc.css",
+    "static/js/main.53eb8a3b.js"
+  ]
+}
