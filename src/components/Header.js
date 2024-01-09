@@ -8,7 +8,7 @@ export default function Header() {
 		<header className='flex justify-between w-full bg-olive-200 py-6 border border-b-jet-500 px-5'>
 			<div className='grid grid-cols-7 gap-7'>
 				<LinkComponent
-					path='/'
+					path='/about-time'
 					text='Home'
 				/>
 				<div

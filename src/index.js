@@ -63,7 +63,7 @@ const router = createBrowserRouter([
 		),
 		children: [
 			{
-				path: '/',
+				path: '/about-time', //temporary
 				element: <Home />,
 			},
 			{
