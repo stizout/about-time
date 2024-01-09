@@ -1,9 +1,8 @@
 import React from 'react';
-// import Link from './Link';
 import LinkComponent from './Link';
 
 export default function Header() {
-	const [showAbout, setShowAbout] = React.useState(false);
+	const [showAbout, setShowAbout] = React.useState(true);
 	const [showArticles, setShowArticles] = React.useState(false);
 	return (
 		<header className='flex justify-between w-full bg-olive-200 py-6 border border-b-jet-500 px-5'>
@@ -23,33 +22,23 @@ export default function Header() {
 							style={{ top: '25px', zIndex: 100 }}
 							onClick={() => setShowAbout(false)}
 						>
-							<div
-								className='hover:bg-olive-600 px-3 py-2 flex items-center hover:text-olive-500 cursor-pointer'
+							<LinkComponent
 								style={{ borderTopLeftRadius: '.375rem', borderTopRightRadius: '.375rem' }}
-							>
-								<LinkComponent
-									path='/about'
-									text='About'
-								/>
-							</div>
-							<div
+								path='/about'
+								text='About'
 								className='hover:bg-olive-600 px-3 py-2 flex items-center hover:text-olive-500 cursor-pointer'
-								style={{ borderBottomLeftRadius: '.375rem', borderBottomRightRadius: '.375rem' }}
-							>
-								<LinkComponent
-									path='/professional'
-									text='Professional'
-								/>
-							</div>
-							<div
+							/>
+							<LinkComponent
 								className='hover:bg-olive-600 px-3 py-2 flex items-center hover:text-olive-500 cursor-pointer'
+								path='/professional'
+								text='Professional'
+							/>
+							<LinkComponent
 								style={{ borderBottomLeftRadius: '.375rem', borderBottomRightRadius: '.375rem' }}
-							>
-								<LinkComponent
-									path='/foreword'
-									text='Foreword'
-								/>
-							</div>
+								className='hover:bg-olive-600 px-3 py-2 flex items-center hover:text-olive-500 cursor-pointer'
+								path='/foreword'
+								text='Foreword'
+							/>
 						</div>
 					) : null}
 					<span className='hover:text-olive-500 cursor-pointer'>About</span>
@@ -69,37 +58,34 @@ export default function Header() {
 							style={{ top: '25px', zIndex: 100 }}
 							onClick={() => setShowArticles(false)}
 						>
-							<div
-								className='hover:bg-olive-600 px-3 py-2 flex items-center hover:text-olive-500 cursor-pointer'
+							<LinkComponent
 								style={{ borderTopLeftRadius: '.375rem', borderTopRightRadius: '.375rem' }}
-							>
-								<LinkComponent
-									path='/articles/commentary'
-									text='Commentary Articles'
-								/>
-							</div>
-							<div
 								className='hover:bg-olive-600 px-3 py-2 flex items-center hover:text-olive-500 cursor-pointer'
+								path='/articles/commentary'
+								text='Commentary Articles'
+							/>
+							<LinkComponent
 								style={{ borderBottomLeftRadius: '.375rem', borderBottomRightRadius: '.375rem' }}
-							>
-								<LinkComponent
-									path='/articles/free'
-									text='Free Articles'
-								/>
-							</div>
+								className='hover:bg-olive-600 px-3 py-2 flex items-center hover:text-olive-500 cursor-pointer'
+								path='/articles/free'
+								text='Free Articles'
+							/>
 						</div>
 					) : null}
 					<span className='hover:text-olive-500 cursor-pointer'>Articles</span>
 				</div>
 				<LinkComponent
+					className='hover:text-olive-500 cursor-pointer'
 					path='/news'
 					text='News'
 				/>
 				<LinkComponent
+					className=' hover:text-olive-500 cursor-pointer'
 					path='/blog'
 					text='Blog'
 				/>
 				<LinkComponent
+					className='hover:text-olive-500 cursor-pointer'
 					path='/contact'
 					text='Contact'
 				/>

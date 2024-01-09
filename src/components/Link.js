@@ -1,11 +1,12 @@
 import React from 'react';
 import { Link } from 'react-router-dom';
 
-export default function LinkComponent({ path, text }) {
+export default function LinkComponent({ path, text, className, style }) {
 	return (
 		<Link
+			style={style}
 			to={path}
-			className='hover:text-olive-500'
+			className={className}
 		>
 			{text}
 		</Link>
